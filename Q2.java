@@ -67,7 +67,6 @@ public class Q2 {
 		print("Offspring 1", offspring[0]);
 		print("Offspring 2", offspring[1]);
 
-		// (c) Bit-flip mutation on the fourth bit of the first offspring
 		System.out.println();
 		System.out.println("(c) Mutation");
 		print("Mutated offspring 1", mutate(offspring[0], 4));

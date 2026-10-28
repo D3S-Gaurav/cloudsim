@@ -40,11 +40,11 @@ public class Q1 {
 	private static List<Vm> vmlist;
 
 	public static void main(String[] args) {
-		Log.printLine("===== (b) Arrival order =====");
+		Log.printLine("(b) Arrival order");
 		runSimulation(false);
 
 		Log.printLine();
-		Log.printLine("===== (c) SJF order =====");
+		Log.printLine("(c) SJF order");
 		runSimulation(true);
 	}
 
